@@ -20,6 +20,12 @@ class Library:
         Kitabin_kunyesi=f"{Kitap_adi},{Yazar_adi},{Tarih},{Sayfa_sayisi}\n"
         self.file.write(Kitabin_kunyesi)
         print("Kitap bilgileri yüklendi")
+
+
+    def kitap_silme(self):
+        Kitap_adi_remove=input("Silmek istediğiniz kitap adını giriniz:")
         
+
+             
         
-                
+    
