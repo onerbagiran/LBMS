@@ -1,7 +1,7 @@
 class Library:
     def __init__(self):
         self.file=open("books.txt","a+")
-        
+        self.kitap_ekle()
     def kitap_listele(self):
         self.file.seek(0)
         books=self.file.read().splitlines()
@@ -28,4 +28,5 @@ class Library:
 
              
         
-    
+if __name__ == "__main__":
+    Library()
