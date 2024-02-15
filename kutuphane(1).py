@@ -6,6 +6,7 @@ class Library:
         self.file=open("books.txt","a+")
 
         
+        
 
     def kitap_listele(self):
         self.file.seek(0)
