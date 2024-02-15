@@ -51,5 +51,27 @@ class Library:
 
 
 if __name__ == "__main__":
-    Library()
+    library=Library()
         
+    while True:
+        print("1. Kitapları Listele")
+        print("2. Kitap Ekle")
+        print("3. Kitap Silme")
+        print("4. Çıkış")
+
+        islem=input("Yapmak istediğiniz işlemi seçiniz")
+
+        if islem=="1":
+            library.kitap_listele()
+        elif islem=="2":
+           library.kitap_ekle()
+        elif islem=="3":
+            library.kitap_silme()
+        elif islem=="4":
+            print("çıkış yapılıyor...")
+            break
+        else:
+            print("Geçersiz işlem ")
+
+
+    
