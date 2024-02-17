@@ -5,7 +5,6 @@ class Library:
     def __init__(self):
         self.file=open("books.txt","a+")
 
-        
 
     def kitap_listele(self):
         self.file.seek(0)

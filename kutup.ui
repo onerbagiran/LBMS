@@ -53,7 +53,7 @@
        <string>Kitap Ekle</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pbKitapSl">
+     <widget class="QPushButton" name="pbKitapSilme">
       <property name="geometry">
        <rect>
         <x>200</x>
@@ -71,7 +71,7 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>210</x>
         <y>170</y>
         <width>91</width>
         <height>21</height>
@@ -84,7 +84,7 @@
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>213</x>
+        <x>210</x>
         <y>210</y>
         <width>91</width>
         <height>21</height>
@@ -97,7 +97,7 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>218</x>
+        <x>210</x>
         <y>245</y>
         <width>90</width>
         <height>21</height>
@@ -160,6 +160,19 @@
        </rect>
       </property>
      </widget>
+     <widget class="QPushButton" name="pbKitapKaydet">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>330</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kitap Kaydet</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="kitapsilme">
      <widget class="QPlainTextEdit" name="textKitapAdiSilme">
@@ -175,7 +188,7 @@
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>220</x>
+        <x>214</x>
         <y>220</y>
         <width>91</width>
         <height>21</height>
@@ -198,8 +211,52 @@
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="pbKitapSil">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>260</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kitap Sil</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="liste"/>
+    <widget class="QWidget" name="liste">
+     <widget class="QTableWidget" name="tablo">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>40</y>
+        <width>761</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Kitap Adı</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kitap Yazarı</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Çıkış Tarihi</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Sayfa Sayısı</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
    </widget>
    <widget class="QPushButton" name="pbCikis">
     <property name="geometry">
@@ -221,7 +278,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>42</height>
     </rect>
    </property>
   </widget>
