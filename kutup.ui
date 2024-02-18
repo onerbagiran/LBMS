@@ -66,6 +66,29 @@
        <string>Kitap Sil</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kütüphane Arayüzü</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="kitapekle">
      <widget class="QLabel" name="label">
@@ -173,6 +196,29 @@
        <string>Kitap Kaydet</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kitap Ekle</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="kitapsilme">
      <widget class="QPlainTextEdit" name="textKitapAdiSilme">
@@ -224,6 +270,29 @@
        <string>Kitap Sil</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kitap Sil</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="liste">
      <widget class="QTableWidget" name="tablo">
@@ -255,6 +324,29 @@
         <string>Sayfa Sayısı</string>
        </property>
       </column>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>10</y>
+        <width>311</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>17</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kitap Listesi</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
     </widget>
    </widget>

@@ -24,9 +24,10 @@ class Ui(QtWidgets.QMainWindow):
         
     def fnTabloDoldurma(self):
         #bu kısımda daha önce kaydedilmiş kitaplar init kısmında tabloya ekleniyor
-        
+        self.tablo.clear()
         try:
             with open("books.txt", "r") as dosya:
+                print("hello")
                 satirlar = dosya.readlines()
                 print()
                 for satir_index, satir in enumerate(satirlar):
@@ -54,6 +55,7 @@ class Ui(QtWidgets.QMainWindow):
 
         self.file.write(Kitabin_kunyesi)
         self.file.seek(0)
+        # self.file.close()
         self.fnTextEditTemizleme()
     def fnTextEditTemizleme(self):
         self.textKitapAdi.clear()
@@ -77,11 +79,11 @@ class Ui(QtWidgets.QMainWindow):
             shutil.move(gecici_dosya_yolu, dosya_yolu)
 
             print("Veriler başarıyla silindi.")
+            self.fnTabloDoldurma()
+
         except Exception as e:
             print("Veri silinirken bir hata oluştu:", str(e))      
-        self.sonSatir = self.sonSatir - 1
 
-        self.fnTabloDoldurma()
         
         print("burada")
 
